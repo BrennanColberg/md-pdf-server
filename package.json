@@ -1,0 +1,19 @@
+{
+	"name": "md-pdf-server",
+	"scripts": {
+		"dev": "bun run --watch server.tsx",
+		"start": "bun run server.tsx"
+	},
+	"dependencies": {
+		"@react-pdf/renderer": "^3.1.14",
+		"express": "^4.18.2",
+		"html-entities": "^2.4.0",
+		"marked": "^11.1.1"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/express": "^4.17.21",
+		"@types/marked": "^5.0.2",
+		"@types/react": "^19.0.8"
+	}
+}
